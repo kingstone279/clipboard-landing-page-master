@@ -1,0 +1,150 @@
+@media(max-width:2000px){
+    #header{
+       text-align: center;
+       background-image:
+        linear-gradient(to bottom, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 100%),
+        url("images/bg-header-desktop.png");
+        background-size: cover;
+        background-repeat: no-repeat
+   }
+   #download_section{
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   #header img{
+        width: 70px;
+        height: 70px;
+        margin-top: 100px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #sec_3{
+        text-align: center;
+        width: 60%;
+        margin: 100px auto;
+        
+    }
+    #tools{
+        display: flex;
+        justify-content: center;
+    }
+    .tools_figure{
+        width: 350px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #main img{
+        margin-left: -150px;
+        margin-right: 40px;
+    }
+    #main{
+        display: flex;
+        align-items: start;
+        margin: 100px 0;
+    }
+    #main_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 100px 0;
+    }
+    #workflow_sec #tools{
+        display: flex;
+    }
+    #workflow_sec{
+        text-align: center;
+        margin: 100px 0;
+    }
+    #company_imgs{
+       display: flex;
+       justify-content: space-evenly;
+    }
+    #company_imgs img{
+        width: 100px;
+        height: 33px;
+    }
+    #clipboard{
+        text-align: center;
+        width: 400px;
+        margin: 100px auto;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background: hsl(201, 11%, 66%);
+        padding: 20px;
+    }
+    #footer_1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+
+}
+@media (max-width:400px){
+   #header{
+       background-image: url("images/bg-header-mobile.png");
+   }
+}
+@font-face {
+  src: url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h1,h2,h3{
+    font-family: Bai Jamjuree;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+p,.col_1,.col_2,.col_3{
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+}
+.Download_mac{
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+    background: hsl(171, 66%, 44%);
+    padding: 10px 18px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    box-shadow: 0 3px  hsl(171, 71%, 33%);
+    transition: all 0.3s ease;
+}
+.Download_ios{
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+    background: hsl(233, 100%, 69%);
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    box-shadow: 0 3px  hsl(233, 55%, 51%);
+    transition: all 0.3s ease;
+}
+.Download_ios:hover {
+  box-shadow: 0 0 10px hsl(233, 100%, 69%), 0 0 20px hsl(233, 55%, 51%);
+  cursor: pointer;
+}
+.Download_mac:hover {
+  box-shadow: 0 0 10px hsl(171, 66%, 44%), 0 0 20px hsl(171, 66%, 54%);
+  cursor: pointer;
+}
+
